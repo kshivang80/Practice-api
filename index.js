@@ -39,7 +39,7 @@ app.listen(process.env.port,async()=>{
         await connection
         console.log("Connected Succesfully with DB")
 
-    }catch{
+    }catch(err){
         console.log("Error while connection  with DB")
         console.log(err)
 
